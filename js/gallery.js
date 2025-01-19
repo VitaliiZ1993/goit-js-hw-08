@@ -92,7 +92,7 @@ const images = [
       const largeImageURL = clickedImage.dataset.source;
   
       const instance = basicLightbox.create(`
-        <img src="${largeImageURL}" width="800" height="600">
+        <img src="${largeImageURL}" width="1200" height="1200">
       `);
   
       instance.show();
